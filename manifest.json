@@ -1,0 +1,16 @@
+{
+  "name": "Courses@Brown Default to Current Term",
+  "version": "1.0",
+  "author": "Max Luzuriaga",
+  "manifest_version": 2,
+  "description": "On Courses@Brown, auto-select the current semester rather than defaulting to 'Any Term'",
+  "homepage_url": "http://maxluzuriaga.com",
+  "content_scripts": 
+  [
+    {
+      "matches": ["https://cab.brown.edu/*"],
+      "js": ["resources/jquery.min.js","code/js.js"]
+    }
+  ],
+  "web_accessible_resources":["resources/*"]
+}
