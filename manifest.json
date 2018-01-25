@@ -4,7 +4,7 @@
   "author": "Max Luzuriaga",
   "manifest_version": 2,
   "description": "On Courses@Brown, auto-select the current semester rather than defaulting to 'Any Term'",
-  "homepage_url": "http://maxluzuriaga.com",
+  "homepage_url": "https://github.com/maxluzuriaga/courses-at-brown-current-term",
   "content_scripts": 
   [
     {
