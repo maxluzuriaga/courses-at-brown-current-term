@@ -6,11 +6,11 @@ function getOptionValue() {
     var month = now.getMonth();
 
     var code;
-    if (month <= 5) {
+    if (month <= 4) {
 	// Spring semester
 	year -= 1;
 	code = "20";
-    } else if (month <= 8) {
+    } else if (month <= 7) {
 	// Summer
 	code = "00";
     } else {
